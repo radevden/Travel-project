@@ -1,0 +1,90 @@
+body{
+    font-family: "plus Jakarta Sans", sans-serif;
+    background: #e2dfeb;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/calgary.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    color: white;
+    text-align: center;
+    padding: 220px 0;
+}
+
+header h1{
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 7px;
+    margin: 0;
+    font-style: italic;
+}
+
+header h3 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+button {
+    margin: 10px;
+    padding: 13px 28px;
+    border-radius: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.5); 
+    text-align: center;  
+    letter-spacing: 1px; 
+    transition: all 0.3s ease-out;
+    border: none;
+    margin-top: 32px;
+}
+
+button:hover{
+    background: rgba(255, 255, 255, 0.8); 
+}
+
+@media (max-width: 800px) {
+    header{
+        padding: 60px 0;
+    }
+
+    header h1{ font-size: 48px;
+    }
+
+   header h2{
+        font-size: 20px;
+
+    }
+
+    header h3{
+        font-size: 12px;
+    }
+
+    header button {
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+}
