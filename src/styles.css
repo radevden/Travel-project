@@ -76,6 +76,28 @@ button a {
     color: black;
 }
 
+main {
+    background-color: white;
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    opacity: 0.6;
+    margin: 0;
+    margin-bottom: 12px;;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.9;
+    margin: 0;
+    text-align: justify;
+}
 
 footer{
     color: white;
@@ -83,7 +105,6 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 0;
     width: 100%;
     overflow: hidden;
 }
@@ -91,12 +112,26 @@ footer{
 section {
     max-width: 85%;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
     grid-gap: 60px;
+    margin: 0 auto;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
+#rockies {
+    max-width: 100%;
+    display: block;
 }
 
 footer a, footer p {
@@ -141,6 +176,16 @@ footer ul {
     footer a, footer p {
         font-size: 10px;
     }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    section {
+        padding: 30px;
+    }
+    
 
 }
 
