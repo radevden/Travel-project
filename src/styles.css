@@ -6,7 +6,6 @@ body{
 .container{
     max-width: 1400px;
     margin: 0 auto;
-    
 }
 
 
@@ -80,6 +79,10 @@ main {
     background-color: white;
 }
 
+main h1{
+    margin: 0;
+}
+
 main h2 {
     font-weight: 700;
     font-size: 22px;
@@ -87,7 +90,16 @@ main h2 {
     letter-spacing: 5px;
     opacity: 0.6;
     margin: 0;
-    margin-bottom: 12px;;
+    margin-bottom: 12px;
+}
+
+main h3{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    opacity: 0.8;
+    margin: 0;
 }
 
 main p {
@@ -110,9 +122,17 @@ footer{
 }
 
 section {
-    max-width: 85%;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
+}
+
+.sec-cards {
+    background: #e2dfeb;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .grid {
@@ -121,17 +141,63 @@ section {
     margin: 0 auto;
 }
 
-.grid-3-columns {
+.container-main {
+    background: white;
+    border-radius: 8px;;
+}
+
+.picmap {
+    display: grid;
+    margin: 10px;
+}
+
+.card-desc{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.card-btn {
+    display: block;
+    margin: 0 auto;
+    margin: 15px;
+    background: #e2dfeb;
+}
+
+.card-btn:hover{
+    background: #c7c4d0;
+}
+
+.grid-3-columns-footer {
     grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
 }
 
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
 }
 
+img {
+    max-width: 100%;
+    border-radius: 8px;;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
 #rockies {
     max-width: 100%;
     display: block;
+}
+
+iframe {
+    width: 100%;
+
 }
 
 footer a, footer p {
@@ -186,6 +252,21 @@ footer ul {
         padding: 30px;
     }
     
+    .picmap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-btn {
+        display: block;
+        margin: 0 auto;
+        margin: 15px;
+        background: #e2dfeb;
+    }
+
+    img:hover {
+        transform: none;
+    }
 
 }
 
