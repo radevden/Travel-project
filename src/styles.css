@@ -50,6 +50,21 @@ button a {
     letter-spacing: 1px;
 }
 
+#topbtn {
+    position: fixed; 
+    bottom: 20px; 
+    right: 38px;
+    outline: none; 
+    background: #c7c4d0;
+    color: black;
+    cursor: pointer; 
+    padding: 12px;
+    border-radius: 8px; 
+    font-size: 16px; 
+    text-decoration: none;
+    opacity: 0.8;
+  }
+
 .button {
     margin: 10px;
     padding: 13px 25px;
@@ -66,6 +81,10 @@ button a {
     text-decoration: none;
     color: black;
 
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .button:hover{
