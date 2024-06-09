@@ -126,7 +126,7 @@ footer{
 section {
     max-width: 100%;
     margin: 0 auto;
-    padding: 100px;
+    padding: 100px 40px;
 }
 
 .sec-cards {
@@ -295,5 +295,14 @@ footer ul {
         transform: scale(1.2);
     }
 
+
+    #rockies:hover {
+        transform: scale(1.1);
+    }
+
+    .instapic {
+        max-width: 65%;
+        margin: 0 auto;
+    }
 }
 
