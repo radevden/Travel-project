@@ -1,6 +1,8 @@
 body{
     font-family: "Plus Jakarta Sans", sans-serif;
     background: #e2dfeb;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .container{
@@ -319,9 +321,5 @@ footer ul {
         transform: scale(1.1);
     }
 
-    .instapic {
-        max-width: 65%;
-        margin: 0 auto;
-    }
 }
 
